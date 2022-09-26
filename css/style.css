@@ -1,0 +1,162 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-size: 20px;
+    background-color: #FFF5E4;
+}
+
+.top {
+    background-color: #C1EFFF;
+    padding: 0;
+}
+
+#mountain {
+    height: 400px;
+
+}
+h2 {
+    cursor: pointer;
+    margin: 0px;
+    padding-top: 110px;
+    font-size: 90px;
+    font-family: 'Beau Rivage', cursive;
+    color: #323738;
+    font-weight: 900;
+    line-height: 1.83;
+    text-align: center;
+}
+
+#cloud {
+    height: 90px;
+    position: absolute;
+    top: 320px;
+    left: 380px;
+}
+
+#cloud2 {
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    right: 330px;
+}
+
+#profile {
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5%;
+    margin: 30px;
+}
+
+.skill-row {
+    margin-top: 150px;
+    position: relative;
+    top: -180px;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill {
+    height: 400px;
+
+}
+
+.skills:hover {
+    -webkit-filter: drop-shadow(0px 5px 25px #222);
+    filter: drop-shadow(0px 5px 25px #222);
+    transition: 1s;
+}
+
+#profile:hover {
+    box-shadow: 0px 0px 15px 8px gray;
+    transition: 1s;
+}
+
+#text {
+    font-size: 1.5rem;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    color: #ffaa00;
+    font-weight: normal;
+}
+
+h3 {
+    color: #ff5d5d;
+    transition: 1s;
+    cursor: pointer;
+}
+
+a {
+    color: #11999E;
+}
+
+.skills {
+    border-radius: 3%;
+    height: 200px;
+    float: left;
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+.profile {
+    display: inline-block;
+    width: 35%;
+}
+
+h3 {
+    margin: auto;
+}
+
+#imag1 {
+    margin-right: 20px;
+    position: relative;
+    left: -12px;
+}
+#img3{
+    float: right;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    size: 3px;
+    font-size: 40px;
+    border-width: 10px;
+    width: 5%;
+    border-color: #4fff3c;
+    cursor: pointer;
+}
+hr:hover{
+    border-color: orange;
+    transition: 0.5s;
+}
+.btn{
+    background-color: orange;
+    border-radius: 8px;
+    padding: 2px 10px;
+    text-decoration: none;
+    color: white;
+}
+.btn:hover{
+    background-color: orangered;
+    transition: 0.5s;
+}
+.bottom-container{
+   margin-top: 100px;
+   background-color: lightcyan;
+}
+.footer-link{
+    background-color: #ffc1c1;
+    border-radius: 7px;
+    padding: 2px 10px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+.footer-link:hover{
+    background-color: rgb(255, 53, 87);
+    color: white;
+    transition: 0.5s;
+}
